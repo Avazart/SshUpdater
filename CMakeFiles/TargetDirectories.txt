@@ -1,0 +1,3 @@
+/home/ivehor/SshUpdater/CMakeFiles/rebuild_cache.dir
+/home/ivehor/SshUpdater/CMakeFiles/edit_cache.dir
+/home/ivehor/SshUpdater/CMakeFiles/SshUpdater.dir

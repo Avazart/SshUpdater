@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SshUpdater"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ivehor/SshUpdater"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ivehor/SshUpdater"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ivehor/SshUpdater"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SshUpdater">
+				<Option output="/home/ivehor/SshUpdater/SshUpdater" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivehor/SshUpdater"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 SshUpdater"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SshUpdater/fast">
+				<Option output="/home/ivehor/SshUpdater/SshUpdater" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ivehor/SshUpdater"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 SshUpdater/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/ivehor/SshUpdater/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ivehor/SshUpdater/Dir.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Dir.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Process.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Process.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/Sftp.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/Sftp.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/Ssh.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/Ssh.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshChannel.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshChannel.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshException.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshException.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshSession.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshSession.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshUtils.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/Ssh/SshUtils.h">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/main.cpp">
+			<Option target="SshUpdater"/>
+		</Unit>
+		<Unit filename="/home/ivehor/SshUpdater/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
